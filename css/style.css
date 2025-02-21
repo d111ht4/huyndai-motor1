@@ -44,10 +44,11 @@ header .snb li:last-child:after {display: none;}
 #main article a i {margin-left: 5px;}
 
 #main .wrap ul {display: flex; justify-content: center; position: absolute; bottom: 30px; left: 0; width: 100%;}
-#main .wrap ul li {width: 12px; height: 12px; border-radius: 12px; 
-    background: #fff; text-indent: 20px; overflow: hidden; 
-    margin: 0 5px;}
-#main .wrap ul li.select {background: #000;}
+#main .wrap ul li {margin: 0 5px;}
+#main .wrap ul li a {display: block; width: 12px; height: 12px; 
+    border-radius: 12px; background: #fff; text-indent: 20px; 
+    overflow: hidden;}
+#main .wrap ul li.select a {background: #000;}
 
 #main .wrap > a {position: absolute; top: calc(50% - 12px);}
 #main .prv {left: -30px;}
@@ -99,10 +100,11 @@ border: 2px solid #000; font-weight: 900; transition: 0.3s;}
 
 #dp .wrap ul {display: flex; justify-content: center; position: absolute;
     bottom: 24px; left: 0; width: 100%;}
-#dp .wrap ul li {width: 12px; height: 12px; border-radius: 12px; 
+#dp .wrap ul li {margin: 0 5px;}
+#dp .wrap ul li a {width: 12px; height: 12px; border-radius: 12px; 
     background: #fff; text-indent: 20px; overflow: hidden;
-margin: 0 5px;}
-#dp .wrap ul li.select {background: #000;}
+    display: block;}
+#dp .wrap ul li.select a {background: #000;}
 
 #dp .wrap > a {position: absolute; top: calc(50% - 12px);}
 #dp .prv {left: -30px;}
